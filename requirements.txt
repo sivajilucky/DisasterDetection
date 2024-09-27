@@ -1,4 +1,4 @@
-# Streamlit and other basic packages
+# Streamlit and other essential libraries
 streamlit==1.25.0
 numpy==1.23.5
 pandas==1.5.3
@@ -7,9 +7,9 @@ seaborn==0.12.2
 scikit-learn==1.2.2
 requests==2.31.0
 
-# Add distutils for building package
+# Setuptools for distutils support
 setuptools==58.0.4
 
-# PyTorch compatible version with CPU
-torch==1.10.0+cpu
+# PyTorch (1.8.0+cpu) compatible with Streamlit Cloud's environment
+torch==1.8.0+cpu
 -f https://download.pytorch.org/whl/cpu/torch_stable.html
