@@ -7,7 +7,7 @@ seaborn==0.12.2
 scikit-learn==1.2.2
 requests==2.31.0
 
-# Add distutils for building packages
+# Add distutils for building package
 setuptools==58.0.4
 
 # PyTorch compatible version with CPU
